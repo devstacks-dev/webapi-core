@@ -3,13 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevStacks.WebApi.Auth", "DevStacks.WebApi.Auth\DevStacks.WebApi.Auth.csproj", "{8EDAB0F6-A6B5-4A50-8EEA-A588AF189855}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevStacks.WebApi.Core", "DevStacks.WebApi.Core\DevStacks.WebApi.Core.csproj", "{8C232AD2-3933-4B71-8788-E70ECFBDAF67}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevStacks.WebApi", "DevStacks.WebApi\DevStacks.WebApi.csproj", "{C2EF954D-7419-4920-818E-0157CCF75A5F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevStacks.WebApi.Security", "DevStacks.WebApi.Security\DevStacks.WebApi.Security.csproj", "{C9110A26-25BD-426F-9EE5-42A77518C745}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,21 +14,9 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8EDAB0F6-A6B5-4A50-8EEA-A588AF189855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8EDAB0F6-A6B5-4A50-8EEA-A588AF189855}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8EDAB0F6-A6B5-4A50-8EEA-A588AF189855}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8EDAB0F6-A6B5-4A50-8EEA-A588AF189855}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8C232AD2-3933-4B71-8788-E70ECFBDAF67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8C232AD2-3933-4B71-8788-E70ECFBDAF67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C232AD2-3933-4B71-8788-E70ECFBDAF67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C232AD2-3933-4B71-8788-E70ECFBDAF67}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C2EF954D-7419-4920-818E-0157CCF75A5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C2EF954D-7419-4920-818E-0157CCF75A5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C2EF954D-7419-4920-818E-0157CCF75A5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C2EF954D-7419-4920-818E-0157CCF75A5F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C9110A26-25BD-426F-9EE5-42A77518C745}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C9110A26-25BD-426F-9EE5-42A77518C745}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C9110A26-25BD-426F-9EE5-42A77518C745}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C9110A26-25BD-426F-9EE5-42A77518C745}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
