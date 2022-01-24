@@ -2,6 +2,7 @@
 */
 !DevStacks.WebApi.Core
 !DevStacks.WebApi.Core/*
+./DevStacks.sln
 
 # .NET
 nuget.config
