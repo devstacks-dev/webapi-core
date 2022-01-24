@@ -1,0 +1,16 @@
+# Only the required project is allowed
+*/
+!DevStacks.WebApi.Core
+!DevStacks.WebApi.Core/*
+
+# .NET
+nuget.config
+bin/
+obj/
+
+# OS
+.DS_Store
+
+# IDE
+.idea
+.vscode
