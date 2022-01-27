@@ -1,15 +1,17 @@
 name: Build and Publish
+
 on:
   release:
     types: [created]
+
+env:
+  NUGET_AUTH_TOKEN: ${{secrets.NUGET_TOKEN}}
+  PROJECT_NAME: DevStacks.WebApi.Core
+
 jobs:
   Build-And-Publish:
     runs-on: ubuntu-latest
     steps:
-      - env:
-          NUGET_AUTH_TOKEN: ${{secrets.NUGET_TOKEN}}
-          PROJECT_NAME: DevStacks.WebApi.Core
-
       - name: Checking out repository code
         uses: actions/checkout@v2
 
