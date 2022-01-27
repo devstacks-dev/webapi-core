@@ -9,7 +9,6 @@
         <Description>This library is required by any library to be used by the DevStacks Framework.</Description>
         <Copyright>Copyright DevStacks Software Engineering 2022</Copyright>
         <RepositoryUrl>https://github.com/devstacks-se/webapi-core</RepositoryUrl>
-        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     </PropertyGroup>
 
 </Project>

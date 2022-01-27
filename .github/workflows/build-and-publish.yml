@@ -21,7 +21,10 @@ jobs:
           dotnet-version: '6.0.x'
           source-url: https://api.nuget.org/v3/index.json
 
-      - name: Build and create the package
+      - name: Build .NET Library
+        run: dotnet build -c Release $PROJECT_NAME
+
+      - name: Create the package
         run: dotnet pack -c Release $PROJECT_NAME
 
       - name: Publish the package to NuGet
