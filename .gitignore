@@ -4,6 +4,7 @@
 !DevStacks.WebApi.Core/*
 ./DevStacks.sln
 
+# GitHub Actions
 !.github
 !.github/*
 
