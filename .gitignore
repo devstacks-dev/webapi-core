@@ -4,6 +4,9 @@
 !DevStacks.WebApi.Core/*
 ./DevStacks.sln
 
+!.github
+!.github/*
+
 # .NET
 nuget.config
 bin/
